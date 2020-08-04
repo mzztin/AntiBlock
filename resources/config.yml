@@ -1,0 +1,7 @@
+prefix: "§a[§cAntiBlock§a]"
+reloaded: "§aAntiBlock has been successfully reloaded!"
+message-player: true # Set this to false if you don't want to send the player a message if he places an blocked block
+place-message: "§cYou can not place this block" # You can add %block% to send the block name
+blocks:
+  - TNT
+  - DIAMOND_BLOCK

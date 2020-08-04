@@ -1,0 +1,21 @@
+---
+name: AntiBlock
+version: 1.0.0
+description: Stop players from breaking blocks
+main: Martin\AntiBlock\Main
+api: [3.0.0]
+
+commands:
+  antiblockreload:
+    description: Reload the config for the AntiBlock plugin
+    permission: antiblock.reload
+
+
+permissions:
+  antiblock.bypass:
+    description: Bypass the block check
+    default: op
+  antiblock.reload:
+    description: Being able to reload the config
+    default: op
+...
