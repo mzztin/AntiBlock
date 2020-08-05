@@ -18,9 +18,6 @@ class Main extends PluginBase implements Listener
      */
     private $cfg;
 
-    /** @var string */
-    private $prefix = "";
-
     public function onEnable()
     {
         $this->saveResource("config.yml");
