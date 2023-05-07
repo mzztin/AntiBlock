@@ -37,5 +37,5 @@ The plugin has the following (sub-)commands
 
 ## Preview
 
-[![[IMAGE ALT TEXT HERE](https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/4/28/bjoyslzjb3uxqyg82uz2/minecraft)](https://img.youtube.com/vi/1Euz2oeJ0Bg/0.jpg)](https://www.youtube.com/watch?v=1Euz2oeJ0Bg)
+[![PREVIEW VIDEO](https://img.youtube.com/vi/1Euz2oeJ0Bg/0.jpg)](https://www.youtube.com/watch?v=1Euz2oeJ0Bg)
 
