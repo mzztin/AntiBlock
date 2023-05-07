@@ -1,21 +1,19 @@
 ---
 name: AntiBlock
-version: 1.0.0
-description: Stop players from breaking blocks
-main: Martin\AntiBlock\Main
-api: [3.0.0]
-
-commands:
-  antiblockreload:
-    description: Reload the config for the AntiBlock plugin
-    permission: antiblock.reload
-
-
+version: 1.0.1
+description: Block specfic blocks from placing and breaking
+main: mzztin\AntiBlock\Main
+api: [ 4.0.0 ]
+src-namespace-prefix: mzztin\AntiBlock
 permissions:
-  antiblock.bypass:
-    description: Bypass the block check
+  antiblock.bypass.break:
     default: op
-  antiblock.reload:
-    description: Being able to reload the config
+    description: You can break blocks that are blocked
+  antiblock.bypass.place:
     default: op
+    description: You can place blocks that are blocked
+  antiblock.command:
+    default: op
+    description: You can use the antiblock command
+
 ...
