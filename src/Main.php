@@ -70,7 +70,7 @@ class Main extends PluginBase
     protected function onEnable(): void
     {
         $this->saveDefaultConfig();
-        $this->getServer()->getCommandMap()->register("_antiblock", new AntiBlockCommand($this));
+        $this->getServer()->getCommandMap()->register("antiblock", new AntiBlockCommand($this));
         $this->getServer()->getPluginManager()->registerEvents(new AntiBlockListener($this), $this);
     }
 
