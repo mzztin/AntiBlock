@@ -1,7 +1,7 @@
 ---
 name: AntiBlock
 version: 1.0.1
-description: Block specfic blocks from placing and breaking
+description: Block specific blocks from placing and breaking
 main: mzztin\AntiBlock\Main
 api: [ 4.0.0 ]
 src-namespace-prefix: mzztin\AntiBlock

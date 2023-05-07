@@ -28,9 +28,9 @@ The plugin has the following (sub-)commands
 `/antiblock reload`: Reloads the config file  
 
 ## Config
-`prefix`: This will be infront of every message that the plugin sends out  
+`prefix`: This will be in-front of every message that the plugin sends out  
 `permission-bypass`: If this is set to false a player with the permissions mentioned in the permissions tab can not place or break any blocked blocks  
 `message-player`: Sends a message to the player if he places/breaks a blocked block  
-`place-message`: The message a player recieves when he places a blocked block. You can insert `%block%` for the block name  
-`break-message`: The message a player recieves when he breaks a blocked block. You can insert `%block%` for the block name  
+`place-message`: The message a player receives when he places a blocked block. You can insert `%block%` for the block name  
+`break-message`: The message a player receives when he breaks a blocked block. You can insert `%block%` for the block name  
 `break-blocks`, `place-blocks`: These are two arrays that contains the blocked blocks. You can control these with /antiblock add or remove them manually in the config  
