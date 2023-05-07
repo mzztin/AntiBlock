@@ -8,7 +8,7 @@ The following permissions are integrated in the plugin:
 `antiblock.command`: Allows the usage of the `/antiblock` command  
 
 
-* = There still is a setting in the config that disallows this feature called `permission-bypass`. Check the config tab for more information  
+\* = There still is a setting in the config that disallows this feature called `permission-bypass`. Check the config tab for more information  
 
 
 ## Activation
@@ -17,14 +17,15 @@ This feature is thought to be used as a bypass for every player to place and bre
 
 
 ## Commands
-The plugin has the following (sub-)commands  
-´/antiblock info´: Gives you general informations like: is the plugin active  
-´/antiblock add <place/break> hand´: (player only) Add the block you have in your hand to the place or break list  
-´/antiblock add <place/break> <id>´: Adds the id to the place or break list  
-´/antiblock list´: Shows you all the blocks that are blocked from placing and breaking  
-´/antiblock on´: Enables the activation feature  
-´/antiblock off´: Disable the activation feature  
-´/antiblock reload´: Reloads the config file  
+The plugin has the following (sub-)commands
+
+`/antiblock info`: Gives you general informations like: is the plugin active  
+`/antiblock add <place/break> hand`: (player only) Add the block you have in your hand to the place or break list  
+`/antiblock add <place/break> <id>`: Adds the id to the place or break list  
+`/antiblock list`: Shows you all the blocks that are blocked from placing and breaking  
+`/antiblock on`: Enables the activation feature  
+`/antiblock off`: Disable the activation feature  
+`/antiblock reload`: Reloads the config file  
 
 ## Config
 `prefix`: This will be infront of every message that the plugin sends out  
