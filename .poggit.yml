@@ -5,4 +5,5 @@ branches:
 projects:
   AntiBlock:
     path: ""
+    icon: "icon.png"
 ...
