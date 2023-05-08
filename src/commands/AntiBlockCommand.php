@@ -14,7 +14,7 @@ class AntiBlockCommand extends Command implements PluginOwned
 {
     public function __construct(private Main $owner)
     {
-        parent::__construct("antiblock", "The command to manage the AntiBlock plugin", "/antiblock <on|off|add|list|info>");
+        parent::__construct("antiblock", "The command to manage the AntiBlock plugin", "/antiblock <on|off|add|list|info|reload>");
         $this->setPermission("antiblock.command");
     }
 
